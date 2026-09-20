@@ -6,7 +6,7 @@ function calcAverageCalories(days) {
     for (const key of days) {
       counter += key.calories;
     }
-    return counter / 7;
+    return counter / days.length;
   }
 }
 
